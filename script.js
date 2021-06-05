@@ -1,34 +1,15 @@
-document.getElementById('ok').addEventListener('click',function(e)
-{
-    alert('ok')
+document.getElementById('ok').addEventListener('click', function (e) {
+    alert('ok is click')
     console.log(e)
-})
-document.getElementById('cancle').addEventListener('click',function(e)
-{
-    alert{'cancle'}
-    console.loglog(e)
-})
-document.getElementById('no').addEventListener('click',function(e)
-{
-    alert{'no'}
-    console.loglog(e)
-})
-
-document.getElementById('cancle'.addEventListener('mousmove',function(e)
-{
-    var x = c.client;
-    var y = c.client;
-    console.log('x;'+x+','+'y:'+y)
-})
-document.getElementById('ok'.addEventListener('mousmove',function(e)
-{
-    var x = c.client;
-    var y = c.client;
-    console.log('x;'+x+','+'y:'+y)
-})
-document.getElementById('no'.addEventListener('mousmove',function(e)
-{
-    var x = c.client;
-    var y = c.client;
-    console.log('x;'+x+','+'y:'+y)
-})
+}
+)
+document.getElementById('cancle').addEventListener('click', function (e) {
+    alert('cancle is click')
+    console.log(e)
+}
+)
+document.getElementById('no').addEventListener('click', function (e) {
+    alert('no is click')
+    console.log(e)
+}
+)
